@@ -1,0 +1,103 @@
+body {
+    font-family:'Times New Roman', Times, serif ;
+    margin: 0;
+    display: flex;
+    height: 100vh;
+    background-image:url('https://gitiho.com/caches/p_medium_large//uploads/315313/images/image_hinh-nen-powerpoint-mau-hong-1-min(1).jpg') ;
+    
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    display: flex; /* Sử dụng Flexbox */
+    justify-content: space-between; /* Khoảng cách đều giữa các cột */
+    flex-wrap: wrap; /* Cho phép cuộn khi không đủ chỗ */
+
+}
+
+.profile-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.profile-pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 10px rgba(173, 88, 88, 0.2);
+}
+
+h1 {
+    font-size: 2.5em; /* Kích thước chữ lớn cho tiêu đề chính */
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; /* Tên phông chữ */
+    color:rgb(114, 65, 88);
+
+}
+
+h2 {
+    font-size: 1.4em; /* Kích thước chữ lớn cho tiêu đề phụ */
+    font-family:'Times New Roman', Times, serif;
+    color:rgb(95, 29, 29);
+}
+h3 {
+    font-size: 1.3em; /* Kích thước chữ lớn cho tiêu đề phụ */
+    color:rgb(95, 29, 29);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+    font-size: 1.2em; /* Kích thước chữ lớn cho danh sách */
+    color:#491f38;
+}
+
+.bio-section {
+    flex: 1;
+    padding: 17px;
+    margin: 20px; /* Khoảng cách giữa các cột */
+    min-width: 300px; /* Chiều rộng tối thiểu cho các cột */
+}
+
+.social-links {
+    margin-top: 15px;
+    font-size: 1em; /* Kích thước chữ lớn cho danh sách */
+
+}
+
+.social-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #8b5b7f;
+    font-weight: bold;
+    transition: transform 0.3s;
+    font-size: 1.2em; /* Kích thước chữ lớn cho liên kết mạng xã hội */
+}
+
+.social-links a:hover { 
+    transform: scale(1.1);
+    text-decoration: underline;
+}
+.li {
+    font-family: 'Roboto Flex';
+}
+.info-section {
+    margin-top: -1.5cm; /* Lùi lên khoảng 2cm */
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin-left: -0.3cm;
+}
+.hobby-section {
+    flex: 1; /* Mỗi phần chiếm 1 cột */
+    margin: 20px; /* Khoảng cách giữa các cột */
+    min-width: 300px; /* Chiều rộng tối thiểu cho các cột */
+    padding: 17px; /* Khoảng cách bên trong */
+}
